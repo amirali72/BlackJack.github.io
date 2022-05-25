@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: goldenrod;
+    font-size: 4vw;
+}
+
+p{
+    color: antiquewhite;
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+#messageEl{
+    font-style: italic;
+}
+
+button{
+    color: #004131;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif; */
+    font-weight: bold;
+    font-size: 2vw;
+    width: 20vw;
+    height: 8vh;
+    background-color: goldenrod;
+    /* margin-bottom: 1vw; */
+    margin-top: 1vw;
+    border: none;
+    border-radius: 2px;
+}
+
+button:hover {background-color: goldenrod}
+
+button:active {
+  background-color: goldenrod;
+  box-shadow: 0 3px #000;
+  transform: translateY(4px);
+}
